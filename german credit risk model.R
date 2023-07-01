@@ -29,3 +29,5 @@ predictions_RF <- predict(model_RF, newdata = testX)
 CM_RF <- confusionMatrix(data = predictions_RF, reference = testY)
 accuracyRF <- CM_RF$overall["Accuracy"]
 accuracyRF
+
+#I'll add more models for this data and compare among them
